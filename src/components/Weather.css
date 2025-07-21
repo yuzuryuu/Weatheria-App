@@ -58,9 +58,10 @@
 
 .weather-data .col {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
     font-size: 22px;
+    width: 150px;
 }
 
 .weather-data .col span {
@@ -69,6 +70,6 @@
 }
 
 .weather-data .col img {
-    width: 50px;
-    margin: 10px;
+    width: 60px;
+    margin: 10px 0;
 }
